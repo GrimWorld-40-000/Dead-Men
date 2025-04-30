@@ -3,7 +3,7 @@
   <name>GrimWorld 40,000 - Dead Men</name>
   <author>Clashgore, Eridanus, Odzmang, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Maxim, Shun The Witch, Samael, Con</author>
   <packageId>Grimworld.DeadMen</packageId>
-  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/KriegModIcon</modIconPath>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/Krieg_ModIcon</modIconPath>
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
