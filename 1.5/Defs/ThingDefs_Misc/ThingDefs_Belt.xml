@@ -3,8 +3,8 @@
         <!-- Combat Webbing -->
 
     <ThingDef ParentName="ApparelMakeableBase">
-        <defName>ODZ_40k_IG_DKOK_CombatWebbing</defName>
-        <label>Death Korps webbing</label>
+        <defName>GW_HOI_DM_KriegBelt</defName>
+        <label>Death Korps Webbing</label>
         <description>The webbing of a Death Korps of Krieg Guardsman. It provides space to carry more equipment, such as lasgun power packs and grenades. \n\nA true Kriegsman bears his load without complaint. A grim and deadpan joke, perhaps, but never complaint. He is a soldier through and through, at home in a muddy trench.</description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
@@ -13,14 +13,15 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/DeathKorps/Belt/DKOKCombatWebbing_Male_south</texPath>
+            <texPath>Apparel/Guard/DKoK_GuardBelt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-            <drawSize>1.2</drawSize>
+            <drawSize>1.0</drawSize>
         </graphicData>
-        <costStuffCount>30</costStuffCount>
+        <costStuffCount>50</costStuffCount>
         <stuffCategories>
             <li>Leathery</li>
+            <li>Fabric</li>
         </stuffCategories>
         <costList>
             <Steel>15</Steel>
@@ -33,25 +34,22 @@
             <li>GW_AM_Utility</li>
         </tradeTags>
         <statBases>
-            <MaxHitPoints>150</MaxHitPoints>
-            <WorkToMake>1000</WorkToMake>
-            <Mass>1</Mass> 
-            <Flammability>0.25</Flammability>
-            <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+            <MaxHitPoints>140</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>3.2</Mass> 
+            <MarketValue>500</MarketValue>
             <EquipDelay>1.5</EquipDelay>
+            <VEF_RangedCooldownFactor>0.9</VEF_RangedCooldownFactor>
         </statBases>
         <equippedStatOffsets>
-            <CarryingCapacity>30</CarryingCapacity>
-            <MoveSpeed>-0.02</MoveSpeed>
+            <CarryingCapacity>5</CarryingCapacity>
         </equippedStatOffsets>
         <apparel>
             <useWornGraphicMask>true</useWornGraphicMask>
             <bodyPartGroups>
                 <li>Waist</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/DeathKorps/Belt/DKOKCombatWebbing</wornGraphicPath>
+            <wornGraphicPath>Apparel/Guard/Belt/DKoK_GuardBelt</wornGraphicPath>
             <wornGraphicData/>
             <layers>
                 <li>Belt</li>
@@ -75,4 +73,46 @@
             </options>
         </colorGenerator>
     </ThingDef>  	
+
+    	<ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_HOI_DM_KriegEngineerPack</defName>
+		<label>Krieg Engineer Webbing</label>
+        <description>A combat engineer’s pack, containing construction tools. It allows the wearer to build and repair objects faster. \n\nEvery soldier of the Death Korps of Krieg knows how to dig a good trench, but for stronger defenses, the Death Korps Engineers are ready and willing. They can quickly set up fighting positions of surprising strength, helping the Kriegsmen limit their casualties while maximizing the attrition of enemy forces.</description>
+		<graphicData>
+			<texPath>Apparel/Engineer/DKoK_EngineerBackpack</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1.0</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+		</recipeMaker>
+        <costStuffCount>65</costStuffCount>
+		<statBases>
+			<MaxHitPoints>145</MaxHitPoints>
+            <WorkToMake>11000</WorkToMake>
+            <Mass>1.2</Mass>
+            <EquipDelay>2</EquipDelay>
+            <MarketValue>220</MarketValue>
+		</statBases>
+		 <equippedStatOffsets>
+            <CarryingCapacity>20</CarryingCapacity>
+            <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<ConstructSuccessChance>0.1</ConstructSuccessChance>
+			<SmoothingSpeed>0.1</SmoothingSpeed>
+            <PlantWorkSpeed>0.1</PlantWorkSpeed>
+            <MiningSpeed>0.1</MiningSpeed>
+        </equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Apparel/Engineer/Backpack/DKoK_EngineerBackpack</wornGraphicPath>
+			<tags>
+				<li>40kDeathKorps</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
 </Defs>

@@ -89,10 +89,6 @@
         <stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
-        <equippedStatOffsets>
-            <SocialImpact>0.1</SocialImpact>
-			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
-        </equippedStatOffsets>	
         <statBases>
             <MaxHitPoints>155</MaxHitPoints>
             <Mass>1.1</Mass>
