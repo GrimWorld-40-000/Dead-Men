@@ -85,18 +85,27 @@
         <graphicData>
             <texPath>Apparel/Commissar/DKoK_CommissarOnskin</texPath>
         </graphicData>
-        <costStuffCount>100</costStuffCount>
+        <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
         <equippedStatOffsets>
             <SocialImpact>0.1</SocialImpact>
 			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>	
         <statBases>
-            <MaxHitPoints>150</MaxHitPoints>
-            <WorkToMake>5000</WorkToMake>
-            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+            <MaxHitPoints>155</MaxHitPoints>
+            <Mass>1.1</Mass>
+            <WorkToMake>10000</WorkToMake>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
         </statBases>
+         <equippedStatOffsets>
+			<SocialImpact>0.05</SocialImpact>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.05</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Apparel/Commissar/Onskin/DKoK_CommissarOnskin</wornGraphicPath>
             <tags>
