@@ -10,9 +10,12 @@
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Guard/DKoK_GuardOnSkin</texPath>
+            <texPath>Apparel/Guard/DKoK_GuardOnskin</texPath>
         </graphicData>
         <costStuffCount>85</costStuffCount>
+        <stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
             <Mass>1.0</Mass>
@@ -20,9 +23,10 @@
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <MarketValue>150</MarketValue>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/Guard/OnSkin/DKoK_GuardOnSkin</wornGraphicPath>
+            <wornGraphicPath>Apparel/Guard/Onskin/DKoK_GuardOnskin</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kDeathKorpsUniform</li>
@@ -40,18 +44,27 @@
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Officer/DKoK_OfficerOnSkin</texPath>
+            <texPath>Apparel/Officer/DKoK_OfficerOnskin</texPath>
         </graphicData>
-        <costStuffCount>90</costStuffCount>
+        <costStuffCount>95</costStuffCount>
+        <stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
         <statBases>
-            <MaxHitPoints>180</MaxHitPoints>
-            <WorkToMake>6000</WorkToMake>
-            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.50</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+            <MaxHitPoints>160</MaxHitPoints>
+            <Mass>1.2</Mass>
+            <WorkToMake>10000</WorkToMake>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
         </statBases>
+        <equippedStatOffsets>
+			<SocialImpact>0.05</SocialImpact>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.05</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.025</MentalBreakThreshold>
+		</equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Apparel/Officer/OnSkin/DKoK_OfficerOnSkin</wornGraphicPath>
+            <wornGraphicPath>Apparel/Officer/Onskin/DKoK_OfficerOnskin</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kDeathKorpsUniform</li>
@@ -70,7 +83,7 @@
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Commissar/DKoK_CommissarOnSkin</texPath>
+            <texPath>Apparel/Commissar/DKoK_CommissarOnskin</texPath>
         </graphicData>
         <costStuffCount>100</costStuffCount>
         <equippedStatOffsets>
@@ -85,7 +98,7 @@
             <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/Commissar/OnSkin/DKoK_CommissarOnSkin</wornGraphicPath>
+            <wornGraphicPath>Apparel/Commissar/Onskin/DKoK_CommissarOnskin</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kCommissar</li>

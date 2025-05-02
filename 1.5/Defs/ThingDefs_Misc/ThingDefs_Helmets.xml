@@ -3,7 +3,7 @@
     <!-- Krieger Helmet -->
 
     <ThingDef ParentName="GW_HOI_HelmetMaskBase">
-        <defName>GW_HOI_DM_Krieg_GuardHelmet</defName>
+        <defName>GW_HOI_DM_KriegGuardHelmet</defName>
         <label>Death Korps Helmet</label>
         <description>A helmet of the Death Korps of Krieg. It fits perfectly with their gas masks, providing a seal against enemy chemical and biological agents. \n\nThe Kriegsmen are always on the offensive - either grinding the enemy down in prolonged trench warfare, or storming enemy defenses with inhuman discipline.</description>
         <techLevel>Industrial</techLevel>
@@ -14,15 +14,21 @@
             <Cloth>10</Cloth>
             <Steel>50</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
+            <HP_Ceramite>5</HP_Ceramite>
+            <Chemfuel>5</Chemfuel>
         </costList>
         <statBases>
-            <WorkToMake>2500</WorkToMake>
+            <MaxHitPoints>160</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
             <Mass>1.3</Mass>
             <ArmorRating_Sharp>0.58</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.26</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.32<ArmorRating_Heat>
+            <ArmorRating_Heat>0.32</ArmorRating_Heat>
             <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+            <Insulation_Cold>0.4</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
+            <MarketValue>400</MarketValue>
         </statBases>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
@@ -39,31 +45,42 @@
     <!-- Krieger Helmet Grenadier -->
 
     <ThingDef ParentName="GW_AM_HelmetBase">
-        <defName>GW_HOI_DM_Krieg_GrenadierHelmet</defName>
+        <defName>GW_HOI_DM_KriegGrenadierHelmet</defName>
         <label>Death Korps Grenadier Helmet</label>
         <description>A slightly improved helmet meant for Death Korps Grenadiers. They look only slightly different compared to regular helmets - enough that a Kriegsman can distinguish the two quickly while the enemy cannot. \n\nThe soldiers of Krieg are rather socially-stunted, but they have found kinship in some of the other Guardsmen - particularly the Valhallan Ice Warriors and the Mordian Iron Guard. All three are storied regiments, possessed of a grim determination to succeed whatever the cost.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/DeathKorps/Headgear/KriegGrenadierHelmet_south</texPath>
+            <texPath>Apparel/Grenadier/DKoK_GrenadierHelmet</texPath>
         </graphicData>
         <costList>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <DevilstrandCloth>50</DevilstrandCloth>
-            <Steel>70</Steel>
+            <Cloth>10</Cloth>
+            <Steel>50</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <HP_Ceramite>10</HP_Ceramite>
+            <Chemfuel>10</Chemfuel>
         </costList>
         <statBases>
-            <WorkToMake>3500</WorkToMake>
-            <Mass>1.4</Mass>
-            <ArmorRating_Sharp>0.87</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <MaxHitPoints>168</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>1.6</Mass>
+            <ArmorRating_Sharp>0.78</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.42</ArmorRating_Heat>
+            <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+            <Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.7</Insulation_Heat>
             <EquipDelay>1.3</EquipDelay>
+            <MarketValue>600</MarketValue>
         </statBases>
+
+        <equippedStatOffsets>
+			<MentalBreakThreshold>0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
         </recipeMaker>
         <apparel>
-            <wornGraphicPath>Things/DeathKorps/Headgear/KriegGrenadierHelmet</wornGraphicPath>
+            <wornGraphicPath>Apparel/Grenadier/Headgear/DKoK_GrenadierHelmet</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kDeathKorpsGrenadierHelmet</li>
@@ -71,42 +88,131 @@
         </apparel>
     </ThingDef>
 
+        <!-- Krieger Engineer Helmet -->
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
+        <defName>GW_HOI_DM_KriegEngineerHelmet</defName>
+        <label>Death Korps Engineer Helmet</label>
+        <description>WIP.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Apparel/Engineer/DKoK_EngineerHelmet</texPath>
+        </graphicData>
+        <costList>
+            <Cloth>10</Cloth>
+            <Steel>50</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <HP_Ceramite>7</HP_Ceramite>
+            <Chemfuel>5</Chemfuel>
+        </costList>
+        <statBases>
+            <MaxHitPoints>165</MaxHitPoints>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>1.4</Mass>
+            <ArmorRating_Sharp>0.68</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.36</ArmorRating_Heat>
+            <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+            <Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.6</Insulation_Heat>
+            <EquipDelay>1.3</EquipDelay>
+            <MarketValue>500</MarketValue>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Apparel/Engineer/Headgear/DKoK_EngineerHelmet</wornGraphicPath>
+            <tags>
+                <li>40kDeathKorps</li>
+                <li>40kDeathKorpsEngineerHelmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+        <!-- Krieger Officer Helmet -->
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
+        <defName>GW_HOI_DM_KriegOfficerHelmet</defName>
+        <label>Death Korps Officer Helmet</label>
+        <description>WIP.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Apparel/Officer/DKoK_OfficerHelmet</texPath>
+        </graphicData>
+        <costList>
+            <Cloth>10</Cloth>
+            <Steel>65</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <HP_Ceramite>10</HP_Ceramite>
+            <Chemfuel>10</Chemfuel>
+        </costList>
+        <statBases>
+            <MaxHitPoints>170</MaxHitPoints>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>1.5</Mass>
+            <ArmorRating_Sharp>0.68</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.38</ArmorRating_Heat>
+            <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+            <Insulation_Cold>0.8</Insulation_Cold>
+			<Insulation_Heat>0.9</Insulation_Heat>
+            <EquipDelay>1.3</EquipDelay>
+            <MarketValue>750</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Apparel/Officer/Headgear/DKoK_OfficerHelmet</wornGraphicPath>
+            <tags>
+                <li>40kDeathKorps</li>
+                <li>40kDeathKorpsOfficerHelmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
     	<!-- Krieg Commissar Helmet -->
   
 	<ThingDef ParentName="GW_HOI_HelmetMaskBase">
-		<defName>GW_HOI_DM_Krieg_CommissarHelmet</defName>
+		<defName>GW_HOI_DM_KriegCommissarHelmet</defName>
 		<label>Death Korps Commissar Helmet</label>
 		<description>WIP.</description>
 		<graphicData>
 			<texPath>Apparel/Commissar/DKoK_CommissarHelmet</texPath>
 		</graphicData>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<DevilstrandCloth>10</DevilstrandCloth>
-			<Steel>100</Steel>
+			<Cloth>10</Cloth>
+            <Steel>60</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <HP_Ceramite>9</HP_Ceramite>
+            <Chemfuel>10</Chemfuel>
 		</costList>
 		<statBases>
-			<WorkToMake>30500</WorkToMake>
 			<MaxHitPoints>165</MaxHitPoints>
-			<Mass>1.4</Mass>
-			<ArmorRating_Sharp>0.64</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.36</ArmorRating_Heat>
-			<Insulation_Cold>0.2</Insulation_Cold>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>1.4</Mass>
+            <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.36</ArmorRating_Heat>
+            <ToxicEnvironmentResistance>0.70</ToxicEnvironmentResistance>
+            <Insulation_Cold>0.5</Insulation_Cold>
 			<Insulation_Heat>0.6</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+            <EquipDelay>2</EquipDelay>
+            <MarketValue>700</MarketValue>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>50</costStuffCount>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<equippedStatOffsets>
-			<SocialImpact>0.1</SocialImpact>
-			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
+			<SocialImpact>0.05</SocialImpact>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.10</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Apparel/Commissar/Headgear/DKoK_CommissarHelmet</wornGraphicPath>
