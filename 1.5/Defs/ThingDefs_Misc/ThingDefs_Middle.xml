@@ -139,6 +139,7 @@
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Neck</li>
+                <li>Shoulders</li>
             </bodyPartGroups>
         </apparel>
     </ThingDef>

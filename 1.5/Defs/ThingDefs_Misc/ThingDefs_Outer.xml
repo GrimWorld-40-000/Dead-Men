@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="GW_AM_OuterBase">
-        <defName>GW_HOI_DM_CommissarOuter</defName>
-        <label>Krieg Commissar Jacket</label>
+        <defName>GW_HOI_DM_KriegCommissarOuter</defName>
+        <label>Krieg Commissar Coat</label>
         <description>A greatcoat with golden epaulets and a red lining, clearly identifying the wearer as an Imperial Commissar. \n\nA Commissar should be respected and must be feared, but never hated - otherwise, they will not last long. Some of the more free-spirited regiments, such as the Catachan Jungle Fighters, are notorious for “battlefield accidents”.</description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
@@ -11,7 +11,7 @@
             <texPath>Apparel/Commissar/DKoK_CommissarOuter</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <costStuffCount>70</costStuffCount>
+        <costStuffCount>90</costStuffCount>
         <stuffCategories>
             <li>Fabric</li>
             <li>Leathery</li>
@@ -20,17 +20,19 @@
             <li>ApparelMisc</li>
         </thingCategories>
         <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <Mass>1.5</Mass>
+            <MaxHitPoints>190</MaxHitPoints>
+            <WorkToMake>14000</WorkToMake>
+            <Mass>2.2</Mass>
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+            <MarketValue>250</MarketValue>
         </statBases>
         <equippedStatOffsets>
-            <SocialImpact>0.1</SocialImpact>
-			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
+            <SocialImpact>0.05</SocialImpact>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.05</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Apparel/Commissar/Outer/DKoK_CommissarOuter</wornGraphicPath>
@@ -43,4 +45,50 @@
             <li>HPOuter</li>
         </tradeTags>
     </ThingDef>   
+
+    <ThingDef ParentName="GW_AM_OuterBase">
+        <defName>GW_HOI_DM_KriegOfficerOuter</defName>
+        <label>Krieg Officer Coat</label>
+        <description>A greatcoat with golden epaulets and a red lining, clearly identifying the wearer as an Imperial Commissar. \n\nA Commissar should be respected and must be feared, but never hated - otherwise, they will not last long. Some of the more free-spirited regiments, such as the Catachan Jungle Fighters, are notorious for “battlefield accidents”.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Officer/DKoK_OfficerOuter</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costStuffCount>95</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>2.5</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+            <MarketValue>300</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.10</SocialImpact>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.15</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.025</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/Officer/Outer/DKoK_OfficerOuter</wornGraphicPath>
+            <tags>
+                <li>40kDeathKorps</li>
+                <li>40kGuardOfficerUniform</li>
+            </tags>
+        </apparel>
+        <tradeTags>
+            <li>HPOuter</li>
+        </tradeTags>
+    </ThingDef>  
 </Defs>
