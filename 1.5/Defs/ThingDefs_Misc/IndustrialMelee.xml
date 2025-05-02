@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <!-- ====================== Krieg Trench Shovel ===================== -->
+   
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>GW_HOI_DM_MeleeWeapon_TrenchShovel</defName>
+        <label>Trench shovel</label>
+        <description>An entrenching tool used by Imperial Guardsmen to dig in, and as a sturdy melee weapon. A solid strike to the head from one of these shovels can do considerable damage to an enemy heretic. \n\nThe Death Korps of Krieg, being specialists in trench warfare, are heavily associated with these shovels.</description>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Weapons/DKoK_Shovel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>2</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>HP_AM_MilitarumFabricationBench</li>
+            </recipeUsers>
+            <displayPriority>400</displayPriority>
+        </recipeMaker>
+        <costStuffCount>50</costStuffCount>
+        <costList>
+            <WoodLog>20</WoodLog>
+            <Steel>40</Steel>
+        </costList>
+        <weaponTags>
+            <li>IndustrialMeleeDecent</li>
+            <li>GW_AM_IndustrialMelee</li>
+        </weaponTags>
+        <tradeTags>
+            <li>HPMelee</li>
+            <li>GW_AM_IndustrialMelee</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>Melee</li>
+        </weaponClasses>
+        <equippedStatOffsets>
+			<FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
+			<ConstructionSpeed>0.05</ConstructionSpeed>
+			<ConstructSuccessChance>0.05</ConstructSuccessChance>
+			<SmoothingSpeed>0.05</SmoothingSpeed>
+            <PlantWorkSpeed>0.05</PlantWorkSpeed>
+            <MiningSpeed>0.05</MiningSpeed>
+		</equippedStatOffsets>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.15</armorPenetration>
+            </li>
+            <li>
+                <label>headCut</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.20</armorPenetration>
+            </li>
+			<li>
+				<label>headBlunt</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>1.9</cooldownTime>
+                <armorPenetration>0.20</armorPenetration>
+			</li>
+        </tools>
+    </ThingDef>
+</Defs>
