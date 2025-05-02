@@ -2,32 +2,33 @@
 <Defs>
     <!-- Krieger Helmet -->
 
-    <ThingDef ParentName="GW_AM_HelmetBase">
-        <defName>ODZ_40k_IG_DKOK_Helmet</defName>
-        <label>Death Korps helmet</label>
+    <ThingDef ParentName="GW_HOI_HelmetMaskBase">
+        <defName>GW_HOI_DM_Krieg_GuardHelmet</defName>
+        <label>Death Korps Helmet</label>
         <description>A helmet of the Death Korps of Krieg. It fits perfectly with their gas masks, providing a seal against enemy chemical and biological agents. \n\nThe Kriegsmen are always on the offensive - either grinding the enemy down in prolonged trench warfare, or storming enemy defenses with inhuman discipline.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
-            <texPath>Things/DeathKorps/Headgear/KriegHelmet_south</texPath>
+            <texPath>Apparel/Guard/DKoK_GuardHelmet</texPath>
         </graphicData>
         <costList>
-            <ComponentIndustrial>2</ComponentIndustrial>
             <Cloth>10</Cloth>
-            <Steel>70</Steel>
+            <Steel>50</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
-            <Mass>1.2</Mass>
-            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <Mass>1.3</Mass>
+            <ArmorRating_Sharp>0.58</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.26</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.32<ArmorRating_Heat>
+            <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
         </recipeMaker>
         <apparel>
-            <wornGraphicPath>Things/DeathKorps/Headgear/KriegHelmet</wornGraphicPath>
+            <wornGraphicPath>Apparel/Guard/Headgear/DKoK_GuardHelmet</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kDeathKorpsHelmet</li>
