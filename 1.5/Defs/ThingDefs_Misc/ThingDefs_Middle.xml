@@ -6,45 +6,45 @@
         <defName>GW_HOI_DM_KriegEngineerMiddle</defName>
         <label>Death Korps Engineer Armor</label>
         <description>WIP.</description>
-        <recipeMaker>
-            <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
-        </recipeMaker>
         <graphicData>
-            <texPath>Things/Commissar/Display/CommissarPlate</texPath>
+            <texPath>Apparel/Engineer/DKoK_EngineerMiddle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <costStuffCount>70</costStuffCount>
-        <stuffCategories>
-		<li>Metallic</li>
-        </stuffCategories>
-        <thingCategories>
-            <li>ApparelMisc</li>
-        </thingCategories>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>65</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <HP_Ceramite>15</HP_Ceramite>
+        </costList>
         <statBases>
+            <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <Mass>1.5</Mass>
-            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+            <Mass>3.7</Mass>
+            <ArmorRating_Sharp>0.83</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>0.4</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
+            <MarketValue>700</MarketValue>
         </statBases>
         <equippedStatOffsets>
-            <SocialImpact>0.1</SocialImpact>
-			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
+            <MoveSpeed>-0.1</MoveSpeed>
         </equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Things/Commissar/Middle/CommissarPlate</wornGraphicPath>
+            <wornGraphicPath>Apparel/Engineer/Middle/DKoK_EngineerMiddle</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kDeathKorpsArmor</li>
             </tags>
 			<bodyPartGroups>
                 <li>Torso</li>
-                <!-- <li>Neck</li> -->
                 <li>Shoulders</li>
-                <!-- <li>Arms</li> -->
-                <!-- <li>Legs</li> -->
             </bodyPartGroups>
         </apparel>
     </ThingDef>
@@ -86,6 +86,52 @@
         </equippedStatOffsets>	
         <apparel>
             <wornGraphicPath>Apparel/Grenadier/Middle/DKoK_GrenadierMiddle</wornGraphicPath>
+            <tags>
+                <li>40kDeathKorps</li>
+                <li>40kDeathKorpsArmor</li>
+            </tags>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+        </apparel>
+    </ThingDef>
+
+     <ThingDef ParentName="GW_AM_ArmorBase">
+        <defName>GW_HOI_DM_KriegOfficerArmor</defName>
+        <label>Death Korps Officer Armor</label>
+        <description>WIP.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>80</Steel>
+            <HP_Ceramite>15</HP_Ceramite>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/Officer/DKoK_OfficerMiddle</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>18000</WorkToMake>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>4.5</Mass>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.38</ArmorRating_Heat>
+            <Insulation_Cold>0.8</Insulation_Cold>
+			<Insulation_Heat>0.9</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+            <MarketValue>900</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        </equippedStatOffsets>	
+        <apparel>
+            <wornGraphicPath>Apparel/Officer/Middle/DKoK_OfficerMiddle</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
                 <li>40kDeathKorpsArmor</li>
