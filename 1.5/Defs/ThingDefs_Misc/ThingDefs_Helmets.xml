@@ -39,8 +39,8 @@
     <!-- Krieger Helmet Grenadier -->
 
     <ThingDef ParentName="GW_AM_HelmetBase">
-        <defName>ODZ_40k_IG_DKOK_GrenadierHelmet</defName>
-        <label>Death Korps grenadier helmet</label>
+        <defName>GW_HOI_DM_Krieg_GrenadierHelmet</defName>
+        <label>Death Korps Grenadier Helmet</label>
         <description>A slightly improved helmet meant for Death Korps Grenadiers. They look only slightly different compared to regular helmets - enough that a Kriegsman can distinguish the two quickly while the enemy cannot. \n\nThe soldiers of Krieg are rather socially-stunted, but they have found kinship in some of the other Guardsmen - particularly the Valhallan Ice Warriors and the Mordian Iron Guard. All three are storied regiments, possessed of a grim determination to succeed whatever the cost.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
@@ -70,4 +70,63 @@
             </tags>
         </apparel>
     </ThingDef>
+
+    	<!-- Krieg Commissar Helmet -->
+  
+	<ThingDef ParentName="GW_HOI_HelmetMaskBase">
+		<defName>GW_HOI_DM_Krieg_CommissarHelmet</defName>
+		<label>Death Korps Commissar Helmet</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Apparel/Commissar/DKoK_CommissarHelmet</texPath>
+		</graphicData>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<DevilstrandCloth>10</DevilstrandCloth>
+			<Steel>100</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>30500</WorkToMake>
+			<MaxHitPoints>165</MaxHitPoints>
+			<Mass>1.4</Mass>
+			<ArmorRating_Sharp>0.64</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.36</ArmorRating_Heat>
+			<Insulation_Cold>0.2</Insulation_Cold>
+			<Insulation_Heat>0.6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Apparel/Commissar/Headgear/DKoK_CommissarHelmet</wornGraphicPath>
+			<tags>
+				<li>40kCommissar</li>
+				<li>40kCommissarCap</li>
+			</tags>
+		</apparel>
+		
+		<modExtensions>
+			<!-- <li Class="VFECore.ApparelDrawPosExtension" MayRequire="oskarpotocki.vanillafactionsexpanded.core"> -->
+			<!-- <apparelDrawSettings> -->
+			<!-- <drawPosNorthOffset>(0, 0, 0)</drawPosNorthOffset> -->
+			<!-- <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset> -->
+			<!-- <drawPosWestOffset>(0, 0, 0)</drawPosWestOffset> -->
+			<!-- <drawPosEastOffset>(0, 0, 0)</drawPosEastOffset> -->
+			<!-- </apparelDrawSettings> -->
+			<!-- <isUnifiedApparel>true</isUnifiedApparel> -->
+			<!-- <hideHead>false</hideHead> -->
+			<!-- </li> -->
+		</modExtensions>
+	</ThingDef>
 </Defs>

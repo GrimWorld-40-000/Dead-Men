@@ -29,10 +29,12 @@
             </recipeUsers>
             <displayPriority>400</displayPriority>
         </recipeMaker>
-        <costStuffCount>50</costStuffCount>
+        <stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+        <costStuffCount>40</costStuffCount>
         <costList>
             <WoodLog>20</WoodLog>
-            <Steel>40</Steel>
         </costList>
         <weaponTags>
             <li>IndustrialMeleeDecent</li>
