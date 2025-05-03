@@ -17,6 +17,7 @@
         <statBases>
             <WorkToMake>4000</WorkToMake>
             <Mass>2</Mass>
+            <MarketValue>160</MarketValue>
         </statBases>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <recipeMaker>
