@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-   <ThingDef ParentName="GW_AM_GrenadeLauncherBase">
+   <ThingDef ParentName="GW_HOI_GrenadeLauncherBase">
     <defName>GW_HOI_DM_GrenadeLauncher</defName>
     <label>Krieg Pattern Launcher (Frag)</label>
     <description>WIP</description>
@@ -12,7 +12,7 @@
         <WorkToMake>10000</WorkToMake>
         <Mass>3</Mass>
         <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
-        <marketvalue>350</marketvalue>
+        <MarketValue>350</MarketValue>
     </statBases>
     <costList>
         <Steel>60</Steel>
@@ -25,7 +25,7 @@
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>GW_AM_LauncherFrag_Bullet</defaultProjectile>
+            <defaultProjectile>GW_HOI_LauncherFrag_Bullet</defaultProjectile>
             <forcedMissRadius>1.2</forcedMissRadius>
             <warmupTime>2.0</warmupTime>
             <range>26</range>
