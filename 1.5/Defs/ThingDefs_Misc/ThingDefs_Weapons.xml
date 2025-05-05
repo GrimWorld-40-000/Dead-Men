@@ -5,7 +5,7 @@
     <label>Krieg Pattern Launcher (Frag)</label>
     <description>WIP</description>
     <graphicData>
-        <texPath>Weapons/DKoK_GrenadeLauncher/</texPath>
+        <texPath>Weapons/DKoK_GrenadeLauncher</texPath>
         <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
