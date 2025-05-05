@@ -1,4 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    
+   <ThingDef ParentName="GW_AM_GrenadeLauncherBase">
+    <defName>GW_HOI_DM_GrenadeLauncher</defName>
+    <label>Krieg Pattern Launcher (Frag)</label>
+    <description>WIP</description>
+    <graphicData>
+        <texPath>Weapons/DKoK_GrenadeLauncher/</texPath>
+        <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+        <WorkToMake>10000</WorkToMake>
+        <Mass>3</Mass>
+        <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+        <marketvalue>350</marketvalue>
+    </statBases>
+    <costList>
+        <Steel>60</Steel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <weaponClasses>
+        <li>RangedHeavy</li>
+    </weaponClasses>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>GW_AM_LauncherFrag_Bullet</defaultProjectile>
+            <forcedMissRadius>1.2</forcedMissRadius>
+            <warmupTime>2.0</warmupTime>
+            <range>26</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Shot_IncendiaryLauncher</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>10</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </li>
+    </verbs>
+           <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+        </tools>
+</ThingDef>
 </Defs>
