@@ -30,7 +30,7 @@
             <warmupTime>2.0</warmupTime>
             <range>26</range>
             <burstShotCount>1</burstShotCount>
-            <soundCast>Shot_IncendiaryLauncher</soundCast>
+            <soundCast>GW_Grenade_Gun_Sound</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>10</muzzleFlashScale>
             <targetParams>
