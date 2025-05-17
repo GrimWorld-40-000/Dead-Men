@@ -25,6 +25,7 @@
             <li>LongShots</li>
         </weaponClasses>
         <weaponTags>
+            <li>GW_HOI_DM_Lasgun</li>
             <li>SpacerGun</li>
         </weaponTags>
         <verbs>

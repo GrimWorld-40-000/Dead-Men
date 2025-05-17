@@ -7,10 +7,12 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags Inherit="False">
+            <li>GW_HOI_DM_Lasgun</li>
+        </weaponTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_Gasmask</li>
-            <li>ODZ_40k_IG_DKOK_Helmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -21,9 +23,8 @@
             <li>40kDeathKorps</li>
         </apparelTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_Gasmask</li>
-            <li>ODZ_40k_IG_DKOK_Helmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -33,10 +34,12 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags Inherit="False">
+            <li>GW_HOI_DM_Lasgun</li>
+        </weaponTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_Gasmask</li>
-            <li>ODZ_40k_IG_DKOK_Helmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -47,9 +50,8 @@
             <li>40kDeathKorps</li>
         </apparelTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_Gasmask</li>
-            <li>ODZ_40k_IG_DKOK_Helmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -61,9 +63,8 @@
         </apparelTags>
         <apparelRequired>
             <li>ODZ_40k_IG_DKOK_GrenadierArmor</li>
-            <li>ODZ_40k_IG_DKOK_Gasmask</li>
-            <li>ODZ_40k_IG_DKOK_Helmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
             <li>ODZ_40k_IG_DKOK_CombatWebbing</li>
         </apparelRequired>
     </PawnKindDef>
@@ -76,9 +77,8 @@
         </apparelTags>
         <apparelRequired>
             <li>ODZ_40k_IG_DKOK_GrenadierArmor</li>
-            <li>ODZ_40k_IG_DKOK_Gasmask</li>
-            <li>ODZ_40k_IG_DKOK_Helmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
             <li>ODZ_40k_IG_DKOK_CombatWebbing</li>
         </apparelRequired>
     </PawnKindDef>
@@ -95,7 +95,7 @@
             <li>ODZ_40k_IG_DKOK_GrenadierArmor</li>
             <li>ODZ_40k_IG_DKOK_GrenadierGasmask</li>
             <li>ODZ_40k_IG_DKOK_GrenadierHelmet</li>
-            <li>ODZ_40k_IG_DKOK_KriegUniform</li>
+            <li>GW_HOI_DM_KriegUniform</li>
             <li>ODZ_40k_IG_DKOK_CombatWebbing</li>
         </apparelRequired>
         <techHediffsChance>0.3</techHediffsChance>
