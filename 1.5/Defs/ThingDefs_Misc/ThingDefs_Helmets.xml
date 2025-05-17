@@ -82,8 +82,7 @@
         <apparel>
             <wornGraphicPath>Apparel/Grenadier/Headgear/DKoK_GrenadierHelmet</wornGraphicPath>
             <tags>
-                <li>40kDeathKorps</li>
-                <li>40kDeathKorpsGrenadierHelmet</li>
+                <li>40kDeathKorpsGrenadier</li>
             </tags>
         </apparel>
     </ThingDef>
@@ -124,8 +123,7 @@
         <apparel>
             <wornGraphicPath>Apparel/Engineer/Headgear/DKoK_EngineerHelmet</wornGraphicPath>
             <tags>
-                <li>40kDeathKorps</li>
-                <li>40kDeathKorpsEngineerHelmet</li>
+                <li>40kDeathKorpsEngineer</li>
             </tags>
         </apparel>
     </ThingDef>

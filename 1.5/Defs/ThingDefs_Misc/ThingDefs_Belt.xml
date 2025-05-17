@@ -110,7 +110,7 @@
 		<apparel>
 			<wornGraphicPath>Apparel/Engineer/Backpack/DKoK_EngineerBackpack</wornGraphicPath>
 			<tags>
-				<li>40kDeathKorps</li>
+				<li>40kDeathKorpsEngineer</li>
 			</tags>
 		</apparel>
 	</ThingDef>

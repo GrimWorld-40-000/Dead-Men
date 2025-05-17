@@ -40,6 +40,7 @@
             <wornGraphicPath>Apparel/Engineer/Middle/DKoK_EngineerMiddle</wornGraphicPath>
             <tags>
                 <li>40kDeathKorpsArmor</li>
+                <li>40kDeathKorpsEngineer</li>
             </tags>
 			<bodyPartGroups>
                 <li>Torso</li>
@@ -87,6 +88,7 @@
             <wornGraphicPath>Apparel/Grenadier/Middle/DKoK_GrenadierMiddle</wornGraphicPath>
             <tags>
                 <li>40kDeathKorpsArmor</li>
+                <li>40kDeathKorpsGrenadier</li>
             </tags>
             <bodyPartGroups>
                 <li>Torso</li>

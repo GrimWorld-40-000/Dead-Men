@@ -123,7 +123,7 @@
         <combatPower>160</combatPower>
         <apparelMoney>4500~5000</apparelMoney>
         <apparelTags Inherit="False">
-            <li>40kDeathKorps</li>
+            <li>40kDeathKorpsEngineer</li>
         </apparelTags>
         <weaponTags Inherit="False">
             <li>GW_HOI_DM_Lasgun</li>
