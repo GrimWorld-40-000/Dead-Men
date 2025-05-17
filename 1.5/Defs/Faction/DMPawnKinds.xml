@@ -108,6 +108,8 @@
         <defName>GW_HOI_DM_Commissar</defName>
         <label>death korps commissar</label>
         <apparelTags Inherit="False">
+            <li>40kCommissar</li>
+            <li>40kCommissarOnSkin</li>
         </apparelTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegCommissarOuter</li>
