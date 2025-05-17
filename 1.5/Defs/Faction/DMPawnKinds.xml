@@ -13,7 +13,7 @@
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
-            GW_HOI_DM_KriegBelt
+            <li>GW_HOI_DM_KriegBelt</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -44,7 +44,7 @@
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
-            GW_HOI_DM_KriegBelt
+            <li>GW_HOI_DM_KriegBelt</li>
         </apparelRequired>
     </PawnKindDef>
 
