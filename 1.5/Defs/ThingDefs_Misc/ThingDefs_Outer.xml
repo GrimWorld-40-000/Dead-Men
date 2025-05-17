@@ -83,7 +83,6 @@
         <apparel>
             <wornGraphicPath>Apparel/Officer/Outer/DKoK_OfficerOuter</wornGraphicPath>
             <tags>
-                <li>40kDeathKorps</li>
                 <li>40kGuardOfficerUniform</li>
             </tags>
         </apparel>

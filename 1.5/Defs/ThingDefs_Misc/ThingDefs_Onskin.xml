@@ -66,7 +66,6 @@
         <apparel>
             <wornGraphicPath>Apparel/Officer/Onskin/DKoK_OfficerOnskin</wornGraphicPath>
             <tags>
-                <li>40kDeathKorps</li>
                 <li>40kDeathKorpsUniform</li>
                 <li>40kGuardOfficerUniform</li>
             </tags>
@@ -105,7 +104,6 @@
         <apparel>
             <wornGraphicPath>Apparel/Commissar/Onskin/DKoK_CommissarOnskin</wornGraphicPath>
             <tags>
-                <li>40kDeathKorps</li>
                 <li>40kCommissar</li>
                 <li>40kCommissarOnSkin</li>
             </tags>
