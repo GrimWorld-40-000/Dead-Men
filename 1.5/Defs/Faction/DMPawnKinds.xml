@@ -13,6 +13,7 @@
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
+            GW_HOI_DM_KriegBelt
         </apparelRequired>
     </PawnKindDef>
 
@@ -40,6 +41,7 @@
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
+            GW_HOI_DM_KriegBelt
         </apparelRequired>
     </PawnKindDef>
 
@@ -62,10 +64,9 @@
             <li>40kDeathKorps</li>
         </apparelTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_GrenadierArmor</li>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
-            <li>ODZ_40k_IG_DKOK_CombatWebbing</li>
+            <li>GW_HOI_DM_KriegBelt</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -76,10 +77,9 @@
             <li>40kDeathKorps</li>
         </apparelTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_GrenadierArmor</li>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
-            <li>ODZ_40k_IG_DKOK_CombatWebbing</li>
+            <li>GW_HOI_DM_KriegBelt</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -92,11 +92,30 @@
             <li>40kDeathKorps</li>
         </apparelTags>
         <apparelRequired>
-            <li>ODZ_40k_IG_DKOK_GrenadierArmor</li>
-            <li>ODZ_40k_IG_DKOK_GrenadierGasmask</li>
-            <li>ODZ_40k_IG_DKOK_GrenadierHelmet</li>
+            <li>GW_HOI_DM_KriegGrenadierArmor</li>
+            <li>GW_HOI_DM_KriegGrenadierHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
-            <li>ODZ_40k_IG_DKOK_CombatWebbing</li>
+            <li>GW_HOI_DM_KriegBelt</li>
+        </apparelRequired>
+        <techHediffsChance>0.3</techHediffsChance>
+        <weaponTags Inherit="False">
+            <li>GrenadeDestructive</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_RangedTier3">
+        <defName>GW_HOI_DM_DeathKorps_Engineer</defName>
+        <label>death korps engineer</label>
+        <combatPower>160</combatPower>
+        <apparelMoney>4500~5000</apparelMoney>
+        <apparelTags Inherit="False">
+            <li>40kDeathKorps</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_DM_KriegEngineerMiddle</li>
+            <li>GW_HOI_DM_KriegEngineerHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
+            <li>GW_HOI_DM_KriegEngineerPack</li>
         </apparelRequired>
         <techHediffsChance>0.3</techHediffsChance>
         <weaponTags Inherit="False">
