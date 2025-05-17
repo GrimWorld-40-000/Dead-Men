@@ -23,6 +23,9 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags>
+            <li>GW_HOI_DM_Shovel</li>
+        </weaponTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
@@ -51,6 +54,9 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags>
+            <li>GW_HOI_DM_Shovel</li>
+        </weaponTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
@@ -63,6 +69,9 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags Inherit="False">
+            <li>GW_HOI_DM_Lasgun</li>
+        </weaponTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
@@ -76,6 +85,9 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags>
+            <li>GW_HOI_DM_Shovel</li>
+        </weaponTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
             <li>GW_HOI_DM_KriegUniform</li>
@@ -99,7 +111,9 @@
         </apparelRequired>
         <techHediffsChance>0.3</techHediffsChance>
         <weaponTags Inherit="False">
-            <li>GrenadeDestructive</li>
+            <li>40kImperialGrenade</li>
+            <li>GW_HOI_DM_GrenadeLauncer</li>
+            <li>GW_HOI_DM_AutoLasgun</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -111,6 +125,10 @@
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
         </apparelTags>
+        <weaponTags Inherit="False">
+            <li>GW_HOI_DM_Lasgun</li>
+            <li>40kImperialGrenade</li>
+        </weaponTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegEngineerMiddle</li>
             <li>GW_HOI_DM_KriegEngineerHelmet</li>
@@ -118,9 +136,26 @@
             <li>GW_HOI_DM_KriegEngineerPack</li>
         </apparelRequired>
         <techHediffsChance>0.3</techHediffsChance>
-        <weaponTags Inherit="False">
-            <li>GrenadeDestructive</li>
-        </weaponTags>
+        <modExtensions Inherit = "False">
+            <li Class="CombatExtended.LoadoutPropertiesExtension" MayRequire="ceteam.combatextended">
+			    <primaryMagazineCount>
+				    <min>3</min>
+				    <max>5</max>
+			    </primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.9</generateChance>
+						<sidearmMoney>
+							<min>750</min>
+							<max>2000</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GW_HOI_DM_Shovel</li>
+						</weaponTags>
+					</li>
+				</sidearms>
+		    </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_HOI_Commissar">

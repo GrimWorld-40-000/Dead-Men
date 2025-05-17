@@ -103,6 +103,7 @@
             <li>LongShots</li>
         </weaponClasses>
         <weaponTags>
+            <li>GW_HOI_DM_AutoLasgun</li>
             <li>SpacerGun</li>
         </weaponTags>
         <verbs>
@@ -167,6 +168,10 @@
     <weaponClasses>
         <li>RangedHeavy</li>
     </weaponClasses>
+    <weaponTags>
+            <li>GW_HOI_DM_GrenadeLauncer</li>
+            <li>SpacerGun</li>
+        </weaponTags>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>

@@ -44,6 +44,7 @@
         <tradeTags>
             <li>HPMelee</li>
             <li>GW_AM_IndustrialMelee</li>
+            <li>GW_HOI_DM_Shovel</li>
         </tradeTags>
         <weaponClasses>
             <li>Melee</li>
