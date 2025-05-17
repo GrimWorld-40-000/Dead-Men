@@ -5,6 +5,7 @@
         <label>Lucius Lasgun</label>
         <description>The standard-issue lasgun of the Death Korps of Krieg. WIP.</description>
         <graphicData>
+            <drawSize>1.2</drawSize>
             <texPath>Weapons/DKoK_Lucius_Lasgun</texPath>
         </graphicData>
         <statBases>
@@ -81,6 +82,7 @@
         <label>Lucius XIV Lasgun</label>
         <description>The Lucius Lasgun modified for higher fire rate. WIP.</description>
         <graphicData>
+            <drawSize>1.2</drawSize>
             <texPath>Weapons/DKoK_Lucius_Lasgun2</texPath>
         </graphicData>
         <statBases>
