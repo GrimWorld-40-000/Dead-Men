@@ -2,7 +2,7 @@
 <Defs>
         <!--Death Korps-->
     <PawnKindDef ParentName="GW_AM_RangedTier1">
-        <defName>GW_AM_DeathKorps_RangedTier1</defName>
+        <defName>GW_HOI_DM_DeathKorps_RangedTier1</defName>
         <label>death korps conscript</label>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
@@ -17,7 +17,7 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_AM_MeleeTier1">
-        <defName>GW_AM_DeathKorps_MeleeTier1</defName>
+        <defName>GW_HOI_DM_DeathKorps_MeleeTier1</defName>
         <label>death korps conscript</label>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
@@ -29,7 +29,7 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_AM_RangedTier2">
-        <defName>GW_AM_DeathKorps_RangedTier2</defName>
+        <defName>GW_HOI_DM_DeathKorps_RangedTier2</defName>
         <label>death korps trooper</label>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
@@ -44,7 +44,7 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_AM_MeleeTier2">
-        <defName>GW_AM_DeathKorps_MeleeTier2</defName>
+        <defName>GW_HOI_DM_DeathKorps_MeleeTier2</defName>
         <label>death korps trooper</label>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
@@ -56,7 +56,7 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_AM_RangedTier3">
-        <defName>GW_AM_DeathKorps_RangedTier3</defName>
+        <defName>GW_HOI_DM_DeathKorps_RangedTier3</defName>
         <label>death korps sergeant</label>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
@@ -70,7 +70,7 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_AM_MeleeTier3">
-        <defName>GW_AM_DeathKorps_MeleeTier3</defName>
+        <defName>GW_HOI_DM_DeathKorps_MeleeTier3</defName>
         <label>death korps sergeant</label>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
@@ -84,7 +84,7 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_AM_RangedTier3">
-        <defName>GW_AM_DeathKorps_Grenadier</defName>
+        <defName>GW_HOI_DM_DeathKorps_Grenadier</defName>
         <label>death korps grenadier</label>
         <combatPower>160</combatPower>
         <apparelMoney>4500~5000</apparelMoney>
@@ -102,5 +102,17 @@
         <weaponTags Inherit="False">
             <li>GrenadeDestructive</li>
         </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_Commissar">
+        <defName>GW_HOI_DM_Commissar</defName>
+        <label>death korps commissar</label>
+        <apparelTags Inherit="False">
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_DM_KriegCommissarOuter</li>
+            <li>GW_HOI_DM_KriegCommissarHelmet</li>
+            <li>GW_HOI_DM_CommissarUniform</li>
+        </apparelRequired>
     </PawnKindDef>
 </Defs>
