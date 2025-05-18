@@ -23,7 +23,7 @@
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <colorSpectrum>
-            <li>(0.35, 0.44, 0.26)</li>
+            <li>(0.33, 0.36, 0.37)</li>
         </colorSpectrum>
         <baseTraderKinds>
             <li>GW_AM_Trader</li>
