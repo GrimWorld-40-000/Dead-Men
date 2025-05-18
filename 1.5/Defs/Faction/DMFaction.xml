@@ -55,14 +55,13 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
-                    <GW_HOI_DM_DeathKorps_RangedTier1>5</GW_HOI_DM_DeathKorps_RangedTier1>
+                    <GW_HOI_DM_DeathKorps_RangedTier1>7</GW_HOI_DM_DeathKorps_RangedTier1>
                     <GW_HOI_DM_DeathKorps_MeleeTier1>3</GW_HOI_DM_DeathKorps_MeleeTier1>
-                    <GW_HOI_DM_DeathKorps_RangedTier2>7</GW_HOI_DM_DeathKorps_RangedTier2>
+                    <GW_HOI_DM_DeathKorps_RangedTier2>12</GW_HOI_DM_DeathKorps_RangedTier2>
                     <GW_HOI_DM_DeathKorps_MeleeTier2>5</GW_HOI_DM_DeathKorps_MeleeTier2>
                     <GW_HOI_DM_DeathKorps_RangedTier3>10</GW_HOI_DM_DeathKorps_RangedTier3>
-                    <GW_HOI_DM_DeathKorps_MeleeTier3>7</GW_HOI_DM_DeathKorps_MeleeTier3>
+                    <GW_HOI_DM_DeathKorps_MeleeTier3>5</GW_HOI_DM_DeathKorps_MeleeTier3>
                     <GW_HOI_DM_DeathKorps_Grenadier>3</GW_HOI_DM_DeathKorps_Grenadier>
-                    <GW_AM_LordGeneral>1</GW_AM_LordGeneral>
                     <GW_HOI_DM_KriegOfficer>2</GW_HOI_DM_KriegOfficer>
                     <GW_HOI_DM_Commissar>1</GW_HOI_DM_Commissar>
                 </options>
