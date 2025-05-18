@@ -5,7 +5,6 @@
   <packageId>Grimworld.DeadMen</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/Krieg_ModIcon</modIconPath>
   <supportedVersions>
-    <li>1.4</li>
     <li>1.5</li>
   </supportedVersions>
 
