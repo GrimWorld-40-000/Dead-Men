@@ -121,6 +121,7 @@
 			</tags>
             <layers>
                 <li>Belt</li>
+                <li>Backpack</li>
             </layers>
 		</apparel>
 	</ThingDef>

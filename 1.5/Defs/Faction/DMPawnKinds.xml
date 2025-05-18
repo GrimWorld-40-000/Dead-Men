@@ -165,6 +165,7 @@
         <apparelTags Inherit="False">
             <li>40kKriegOfficerUniform</li>
         </apparelTags>
+        <factionLeader>true</factionLeader>
         <apparelRequired>
             <li>GW_HOI_DM_KriegOfficerOuter</li>
             <li>GW_HOI_DM_KriegOfficerArmor</li>
