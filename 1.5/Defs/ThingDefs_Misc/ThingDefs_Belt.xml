@@ -43,6 +43,7 @@
         </statBases>
         <equippedStatOffsets>
             <CarryingCapacity>5</CarryingCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">7</CarryBulk>
         </equippedStatOffsets>
         <apparel>
             <useWornGraphicMask>true</useWornGraphicMask>
@@ -74,7 +75,7 @@
         </colorGenerator>
     </ThingDef>  	
 
-    	<ThingDef ParentName="GW_AM_BackpackBase">
+    <ThingDef ParentName="ApparelMakeableBase">
 		<defName>GW_HOI_DM_KriegEngineerPack</defName>
 		<label>Krieg Engineer Webbing</label>
         <description>A combat engineer’s pack, containing construction tools. It allows the wearer to build and repair objects faster. \n\nEvery soldier of the Death Korps of Krieg knows how to dig a good trench, but for stronger defenses, the Death Korps Engineers are ready and willing. They can quickly set up fighting positions of surprising strength, helping the Kriegsmen limit their casualties while maximizing the attrition of enemy forces.</description>
@@ -103,15 +104,24 @@
 			<SmoothingSpeed>0.1</SmoothingSpeed>
             <PlantWorkSpeed>0.1</PlantWorkSpeed>
             <MiningSpeed>0.1</MiningSpeed>
+            <CarryBulk MayRequire="CETeam.CombatExtended">15</CarryBulk>
         </equippedStatOffsets>
 		<costList>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<apparel>
+        <useWornGraphicMask>true</useWornGraphicMask>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
 			<wornGraphicPath>Apparel/Engineer/Backpack/DKoK_EngineerBackpack</wornGraphicPath>
+            <wornGraphicData/>
 			<tags>
 				<li>40kDeathKorpsEngineer</li>
 			</tags>
+            <layers>
+                <li>Belt</li>
+            </layers>
 		</apparel>
 	</ThingDef>
 

@@ -134,6 +134,7 @@
             <wornGraphicPath>Apparel/Officer/Middle/DKoK_OfficerMiddle</wornGraphicPath>
             <tags>
                 <li>40kDeathKorpsArmor</li>
+                <li>40kKriegOfficerUniform</li>
             </tags>
             <bodyPartGroups>
                 <li>Torso</li>

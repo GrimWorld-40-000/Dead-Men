@@ -102,6 +102,7 @@
         <apparelMoney>4500~5000</apparelMoney>
         <apparelTags Inherit="False">
             <li>40kDeathKorps</li>
+            <li>40kDeathKorpsGrenadier</li>
         </apparelTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegGrenadierArmor</li>
@@ -156,6 +157,20 @@
 				</sidearms>
 		    </li>
         </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_Officer">
+        <defName>GW_HOI_DM_KriegOfficer</defName>
+        <label>death korps officer</label>
+        <apparelTags Inherit="False">
+            <li>40kKriegOfficerUniform</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_DM_KriegOfficerOuter</li>
+            <li>GW_HOI_DM_KriegOfficerArmor</li>
+            <li>GW_HOI_DM_KriegOfficerHelmet</li>
+            <li>GW_HOI_DM_KriegOfficerUniform</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_HOI_Commissar">
