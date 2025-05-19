@@ -71,6 +71,7 @@
         </apparelTags>
         <weaponTags Inherit="False">
             <li>GW_HOI_DM_Lasgun</li>
+            <li>GW_HOI_DM_AutoLasgun</li>
         </weaponTags>
         <apparelRequired>
             <li>GW_HOI_DM_KriegGuardHelmet</li>
@@ -113,8 +114,8 @@
         <techHediffsChance>0.3</techHediffsChance>
         <weaponTags Inherit="False">
             <li>40kImperialGrenade</li>
-            <li>GW_HOI_DM_GrenadeLauncer</li>
-            <li>GW_HOI_DM_AutoLasgun</li>
+            <li>GW_HOI_DM_GrenadeLauncher</li>
+            <li>GW_HOI_DM_Hellgun</li>
         </weaponTags>
     </PawnKindDef>
 

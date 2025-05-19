@@ -146,6 +146,83 @@
         </tools>
     </ThingDef>
 
+    <ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_HOI_DM_Gun_LuciusHellgun</defName>
+        <label>Lucius XIV Hellgun</label>
+        <description>Hellguns are a special type of high-powered lasgun, also known as a “hot-shot lasgun”. Instead of a standard power pack, hellguns feed from a backpack, allowing it to unleash a long burst of potent lasbolts. \n\nHellguns are generally seen only in the hands of elite Astra Militarum forces, such as the Tempestus Scions and the Cadian Kasrkin. Their superior penetration over normal lasguns gives hellguns a decent chance even against opponents wearing Power Armor.</description>
+        <graphicData>
+            <texPath>Weapons/DKoK_Lucius_Hellgun</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>26000</WorkToMake>
+            <Mass>5.2</Mass>
+            <AccuracyTouch>0.35</AccuracyTouch>
+            <AccuracyShort>0.51</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+            <MarketValue>680</MarketValue>
+        </statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>-0.10</MoveSpeed>
+        </equippedStatOffsets>
+        <recipeMaker>
+		<researchPrerequisite>GW_AM_TempestusScions</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>9</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>GW_HOI_DM_Hellgun</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_HOI_Bullet_hellgun</defaultProjectile>
+                <warmupTime>1.15</warmupTime>
+                <range>27.0</range>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <burstShotCount>3</burstShotCount>
+                <soundCast>GW_AM_Gun_Hellgun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+        </tools>
+    </ThingDef>
+
 
    <ThingDef ParentName="GW_HOI_GrenadeLauncherBase">
     <defName>GW_HOI_DM_GrenadeLauncher</defName>
@@ -169,7 +246,7 @@
         <li>RangedHeavy</li>
     </weaponClasses>
     <weaponTags>
-            <li>GW_HOI_DM_GrenadeLauncer</li>
+            <li>GW_HOI_DM_GrenadeLauncher</li>
             <li>SpacerGun</li>
         </weaponTags>
     <verbs>
