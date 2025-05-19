@@ -26,10 +26,10 @@
             <li>(0.33, 0.36, 0.37)</li>
         </colorSpectrum>
         <baseTraderKinds>
-            <li>GW_AM_Trader</li>
+            <li>GW_HOI_Trader</li>
         </baseTraderKinds>
         <caravanTraderKinds>
-            <li>GW_AM_Trader_Caravan</li>
+            <li>GW_HOI_Trader_Caravan</li>
         </caravanTraderKinds>
         <raidLootMaker>GW_AM_RaidLootMaker</raidLootMaker>
         <xenotypeSet>
