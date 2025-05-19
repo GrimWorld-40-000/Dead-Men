@@ -71,7 +71,7 @@
             <li>
                 <kindDef>Trader</kindDef>
                 <traders>
-                    <GW_AM_Trader>1</GW_AM_Trader>
+                    <GW_HOI_DM_KriegOfficer>1</GW_HOI_DM_KriegOfficer>
                 </traders>
                 <carriers>
                     <Muffalo>6</Muffalo>
@@ -80,12 +80,14 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
-                    <GW_HOI_DM_DeathKorps_MeleeTier1>3</GW_HOI_DM_DeathKorps_MeleeTier1>
-                    <GW_HOI_DM_DeathKorps_MeleeTier2>3</GW_HOI_DM_DeathKorps_MeleeTier2>
-                    <GW_HOI_DM_KriegOfficer>1</GW_HOI_DM_KriegOfficer>
-                    <GW_OgrynEnforcer MayRequire="Phonicmas.40kAbhumans">2</GW_OgrynEnforcer>
-                    <GW_OgrynGunner MayRequire="Phonicmas.40kAbhumans">2</GW_OgrynGunner>
-                    <GW_RatlingSniper MayRequire="Phonicmas.40kAbhumans">4</GW_RatlingSniper>
+                    <GW_HOI_DM_DeathKorps_MeleeTier2>2</GW_HOI_DM_DeathKorps_MeleeTier2>
+                    <GW_HOI_DM_DeathKorps_RangedTier2>3</GW_HOI_DM_DeathKorps_RangedTier2>
+                    <GW_HOI_DM_DeathKorps_RangedTier3>1</GW_HOI_DM_DeathKorps_RangedTier3>
+                    <GW_HOI_DM_DeathKorps_MeleeTier3>1</GW_HOI_DM_DeathKorps_MeleeTier3>
+                    <GW_HOI_DM_DeathKorps_Grenadier>2</GW_HOI_DM_DeathKorps_Grenadier>
+                    <GW_OgrynEnforcer MayRequire="Phonicmas.40kAbhumans">1</GW_OgrynEnforcer>
+                    <GW_OgrynGunner MayRequire="Phonicmas.40kAbhumans">1</GW_OgrynGunner>
+                    <GW_RatlingSniper MayRequire="Phonicmas.40kAbhumans">2</GW_RatlingSniper>
                 </guards>
             </li>
             <li>
