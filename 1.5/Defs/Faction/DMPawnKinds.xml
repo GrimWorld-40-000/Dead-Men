@@ -129,6 +129,7 @@
         </apparelTags>
         <weaponTags Inherit="False">
             <li>GW_HOI_DM_Lasgun</li>
+            <li>GW_HOI_DM_KriegShotgun</li>
             <li>40kImperialGrenade</li>
         </weaponTags>
         <apparelRequired>
