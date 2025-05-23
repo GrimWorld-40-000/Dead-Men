@@ -57,6 +57,7 @@
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <MarketValue>180</MarketValue>
         </statBases>
         <equippedStatOffsets>
 			<SocialImpact>0.05</SocialImpact>
@@ -95,6 +96,7 @@
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <MarketValue>200</MarketValue>
         </statBases>
          <equippedStatOffsets>
 			<SocialImpact>0.05</SocialImpact>
