@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef ParentName="GW_AM_LasgunBase">
+    <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_DM_Gun_Lucius</defName>
         <label>Lucius Lasgun</label>
         <description>The standard-issue lasgun of the Death Korps of Krieg. WIP.</description>
@@ -77,7 +77,7 @@
         </tools>
     </ThingDef>
 
-    <ThingDef ParentName="GW_AM_LasgunBase">
+    <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_DM_Gun_LuciusXIV</defName>
         <label>Lucius XIV Lasgun</label>
         <description>The Lucius Lasgun modified for higher fire rate. WIP.</description>
@@ -146,7 +146,7 @@
         </tools>
     </ThingDef>
 
-    <ThingDef ParentName="GW_AM_LasgunBase">
+    <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_DM_Gun_LuciusHellgun</defName>
         <label>Lucius XIV Hellgun</label>
         <description>Hellguns are a special type of high-powered lasgun, also known as a “hot-shot lasgun”. Instead of a standard power pack, hellguns feed from a backpack, allowing it to unleash a long burst of potent lasbolts. \n\nHellguns are generally seen only in the hands of elite Astra Militarum forces, such as the Tempestus Scions and the Cadian Kasrkin. Their superior penetration over normal lasguns gives hellguns a decent chance even against opponents wearing Power Armor.</description>
@@ -289,7 +289,7 @@
         </tools>
 </ThingDef>
 
-<ThingDef ParentName="GW_AM_AutogunBase">
+<ThingDef ParentName="GW_HOI_AutogunBase">
         <defName>GW_HOI_DM_Gun_LuciusShotgun</defName>
         <label>Lucius Mk 22 Shotgun</label>
         <description>The Lucius Pattern Mark 22c Semi-Automatic Shotgun. WIP.</description>

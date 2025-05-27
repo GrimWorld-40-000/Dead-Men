@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="GW_AM_OuterBase">
+	<ThingDef ParentName="GW_HOI_OuterBase">
         <defName>GW_HOI_DM_KriegCommissarOuter</defName>
         <label>Krieg Commissar Coat</label>
         <description>A greatcoat with golden epaulets and a red lining, clearly identifying the wearer as an Imperial Commissar. \n\nA Commissar should be respected and must be feared, but never hated - otherwise, they will not last long. Some of the more free-spirited regiments, such as the Catachan Jungle Fighters, are notorious for “battlefield accidents”.</description>
@@ -46,7 +46,7 @@
         </tradeTags>
     </ThingDef>   
 
-    <ThingDef ParentName="GW_AM_OuterBase">
+    <ThingDef ParentName="GW_HOI_OuterBase">
         <defName>GW_HOI_DM_KriegOfficerOuter</defName>
         <label>Krieg Officer Coat</label>
         <description>A greatcoat with golden epaulets and a red lining, clearly identifying the wearer as an Imperial Commissar. \n\nA Commissar should be respected and must be feared, but never hated - otherwise, they will not last long. Some of the more free-spirited regiments, such as the Catachan Jungle Fighters, are notorious for “battlefield accidents”.</description>

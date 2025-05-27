@@ -44,7 +44,7 @@
 
     <!-- Krieger Helmet Grenadier -->
 
-    <ThingDef ParentName="GW_AM_HelmetBase">
+    <ThingDef ParentName="GW_HOI_HelmetBase">
         <defName>GW_HOI_DM_KriegGrenadierHelmet</defName>
         <label>Death Korps Grenadier Helmet</label>
         <description>A slightly improved helmet meant for Death Korps Grenadiers. They look only slightly different compared to regular helmets - enough that a Kriegsman can distinguish the two quickly while the enemy cannot. \n\nThe soldiers of Krieg are rather socially-stunted, but they have found kinship in some of the other Guardsmen - particularly the Valhallan Ice Warriors and the Mordian Iron Guard. All three are storied regiments, possessed of a grim determination to succeed whatever the cost.</description>
@@ -89,7 +89,7 @@
 
         <!-- Krieger Engineer Helmet -->
 
-    <ThingDef ParentName="GW_AM_HelmetBase">
+    <ThingDef ParentName="GW_HOI_HelmetBase">
         <defName>GW_HOI_DM_KriegEngineerHelmet</defName>
         <label>Death Korps Engineer Helmet</label>
         <description>WIP.</description>
@@ -130,7 +130,7 @@
 
         <!-- Krieger Officer Helmet -->
 
-    <ThingDef ParentName="GW_AM_HelmetBase">
+    <ThingDef ParentName="GW_HOI_HelmetBase">
         <defName>GW_HOI_DM_KriegOfficerHelmet</defName>
         <label>Death Korps Officer Helmet</label>
         <description>WIP.</description>
