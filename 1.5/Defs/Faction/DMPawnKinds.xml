@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
         <!--Death Korps-->
-    <PawnKindDef ParentName="GW_AM_RangedTier1">
+    <PawnKindDef ParentName="GW_HOI_RangedTier1">
         <defName>GW_HOI_DM_DeathKorps_RangedTier1</defName>
         <label>death korps conscript</label>
         <apparelTags Inherit="False">
@@ -17,7 +17,7 @@
         </apparelRequired>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_MeleeTier1">
+    <PawnKindDef ParentName="GW_HOI_MeleeTier1">
         <defName>GW_HOI_DM_DeathKorps_MeleeTier1</defName>
         <label>death korps conscript</label>
         <apparelTags Inherit="False">
@@ -32,7 +32,7 @@
         </apparelRequired>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_RangedTier2">
+    <PawnKindDef ParentName="GW_HOI_RangedTier2">
         <defName>GW_HOI_DM_DeathKorps_RangedTier2</defName>
         <label>death korps trooper</label>
         <apparelTags Inherit="False">
@@ -48,7 +48,7 @@
         </apparelRequired>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_MeleeTier2">
+    <PawnKindDef ParentName="GW_HOI_MeleeTier2">
         <defName>GW_HOI_DM_DeathKorps_MeleeTier2</defName>
         <label>death korps trooper</label>
         <apparelTags Inherit="False">
@@ -63,7 +63,7 @@
         </apparelRequired>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_RangedTier3">
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
         <defName>GW_HOI_DM_DeathKorps_RangedTier3</defName>
         <label>death korps sergeant</label>
         <apparelTags Inherit="False">
@@ -80,7 +80,7 @@
         </apparelRequired>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_MeleeTier3">
+    <PawnKindDef ParentName="GW_HOI_MeleeTier3">
         <defName>GW_HOI_DM_DeathKorps_MeleeTier3</defName>
         <label>death korps sergeant</label>
         <apparelTags Inherit="False">
@@ -96,7 +96,7 @@
         </apparelRequired>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_RangedTier3">
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
         <defName>GW_HOI_DM_DeathKorps_Grenadier</defName>
         <label>death korps grenadier</label>
         <combatPower>160</combatPower>
@@ -119,7 +119,7 @@
         </weaponTags>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="GW_AM_RangedTier3">
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
         <defName>GW_HOI_DM_DeathKorps_Engineer</defName>
         <label>death korps engineer</label>
         <combatPower>150</combatPower>
