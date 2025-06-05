@@ -163,7 +163,6 @@
         </statBases>
         <equippedStatOffsets>
 			<SocialImpact>0.10</SocialImpact>
-            <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
             <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
             <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -216,7 +215,6 @@
             <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
             <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.10</SlaveSuppressionOffset>
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
-            <ToxicEnvironmentResistance>0.7</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Apparel/Commissar/Headgear/DKoK_CommissarHelmet</wornGraphicPath>

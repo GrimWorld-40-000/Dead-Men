@@ -92,9 +92,6 @@
             <li>Leathery</li>
             <li>Fabric</li>
         </stuffCategories>
-        <costList>
-            <Steel>20</Steel>
-        </costList>
         <costStuffCount>65</costStuffCount>
 		<statBases>
 			<MaxHitPoints>145</MaxHitPoints>
@@ -114,7 +111,8 @@
             <CarryBulk MayRequire="CETeam.CombatExtended">15</CarryBulk>
         </equippedStatOffsets>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>10</Steel>
 		</costList>
 		<apparel>
         <useWornGraphicMask>true</useWornGraphicMask>
