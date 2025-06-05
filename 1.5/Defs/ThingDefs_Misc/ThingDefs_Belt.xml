@@ -88,6 +88,13 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
 		</recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+            <li>Fabric</li>
+        </stuffCategories>
+        <costList>
+            <Steel>20</Steel>
+        </costList>
         <costStuffCount>65</costStuffCount>
 		<statBases>
 			<MaxHitPoints>145</MaxHitPoints>
