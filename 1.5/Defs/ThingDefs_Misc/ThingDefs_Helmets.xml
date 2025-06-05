@@ -118,6 +118,9 @@
             <EquipDelay>1.3</EquipDelay>
             <MarketValue>500</MarketValue>
         </statBases>
+		<equippedStatOffsets>
+            <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
         </recipeMaker>
@@ -163,6 +166,7 @@
         </statBases>
         <equippedStatOffsets>
 			<SocialImpact>0.10</SocialImpact>
+            <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
             <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
             <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -212,6 +216,7 @@
 		</recipeMaker>
 		<equippedStatOffsets>
 			<SocialImpact>0.05</SocialImpact>
+            <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
             <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.10</SlaveSuppressionOffset>
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
             <ToxicEnvironmentResistance>0.7</ToxicEnvironmentResistance>
