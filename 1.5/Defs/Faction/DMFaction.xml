@@ -4,7 +4,10 @@
         <defName>GW_Namer_DeathKorps</defName>
         <rulePack>
             <rulesStrings>
-                <li>r_name->Death Korps</li>
+                <li>r_name->[r_numbers] Death Korps Regiment</li>
+                <li>r_numbers->[Digit]</li>
+                <li>r_numbers->[Digit][Digit]</li>
+                <li>r_numbers->[Digit][Digit][Digit]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
