@@ -5,7 +5,7 @@
    
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
         <defName>GW_HOI_DM_MeleeWeapon_TrenchShovel</defName>
-        <label>Trench shovel</label>
+        <label>Entrenching tool</label>
         <description>An entrenching tool used by Imperial Guardsmen to dig in, and as a sturdy melee weapon. A solid strike to the head from one of these shovels can do considerable damage to an enemy heretic. \n\nThe Death Korps of Krieg, being specialists in trench warfare, are heavily associated with these shovels.</description>
         <possessionCount>1</possessionCount>
         <graphicData>

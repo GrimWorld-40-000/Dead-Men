@@ -4,8 +4,8 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>GW_HOI_DM_KriegBelt</defName>
-        <label>Death Korps Webbing</label>
-        <description>The webbing of a Death Korps of Krieg Guardsman. It provides space to carry more equipment, such as lasgun power packs and grenades. \n\nA true Kriegsman bears his load without complaint. A grim and deadpan joke, perhaps, but never complaint. He is a soldier through and through, at home in a muddy trench.</description>
+        <label>Krieg engineer backpack</label>
+        <description>An engineer's pack for the Death Korps of Krieg. Each pack comes standard with wire-cutters, a toolkit, and a sturdy entrenching tool. With these simple tools, a skilled engineer can turn the battlefield into a labyrinth of fortified trenches.</description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
             <recipeUsers Inherit="false">
@@ -77,8 +77,8 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
 		<defName>GW_HOI_DM_KriegEngineerPack</defName>
-		<label>Krieg Engineer Webbing</label>
-        <description>A combat engineer’s pack, containing construction tools. It allows the wearer to build and repair objects faster. \n\nEvery soldier of the Death Korps of Krieg knows how to dig a good trench, but for stronger defenses, the Death Korps Engineers are ready and willing. They can quickly set up fighting positions of surprising strength, helping the Kriegsmen limit their casualties while maximizing the attrition of enemy forces.</description>
+		<label>Krieg grenadier armor</label>
+        <description>A vest of black carapace armor worn by the Grenadiers, the elite shock troops of the Death Korps of Krieg. Its performance is roughly equivalent to standard carapace armor.\n\nGrenadiers are typically formed from the survivors of units that have suffered such catastrophic casualties that it is more practical to create a new formation than to rebuild the original.</description>
 		<graphicData>
 			<texPath>Apparel/Engineer/DKoK_EngineerBackpack</texPath>
             <graphicClass>Graphic_Single</graphicClass>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="GW_HOI_OuterBase">
         <defName>GW_HOI_DM_KriegCommissarOuter</defName>
         <label>Krieg Commissar Coat</label>
-        <description>A greatcoat with golden epaulets and a red lining, clearly identifying the wearer as an Imperial Commissar. \n\nA Commissar should be respected and must be feared, but never hated - otherwise, they will not last long. Some of the more free-spirited regiments, such as the Catachan Jungle Fighters, are notorious for “battlefield accidents”.</description>
+        <description>A flowing commissar's jacket which has been modified to withstand the harsh conditions of trench warfare. Such displays of ostentation rarely last within the trenches, as bright colors and gold filigree make for excellent targets. </description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
         </recipeMaker>
@@ -48,8 +48,8 @@
 
     <ThingDef ParentName="GW_HOI_OuterBase">
         <defName>GW_HOI_DM_KriegOfficerOuter</defName>
-        <label>Krieg Officer Coat</label>
-        <description>A greatcoat with golden epaulets and a red lining, clearly identifying the wearer as an Imperial Commissar. \n\nA Commissar should be respected and must be feared, but never hated - otherwise, they will not last long. Some of the more free-spirited regiments, such as the Catachan Jungle Fighters, are notorious for “battlefield accidents”.</description>
+        <label>Krieg officer jacket</label>
+        <description>A simple leather overcoat worn over-the-shoulder in the style of a Death Korps officer. These jackets are usually stiched with simple insignia to denote rank, bearing little else in the way of decoration. </description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
         </recipeMaker>

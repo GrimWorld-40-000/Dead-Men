@@ -4,8 +4,8 @@
 
     <ThingDef ParentName="GW_HOI_HelmetMaskBase">
         <defName>GW_HOI_DM_KriegGuardHelmet</defName>
-        <label>Death Korps Helmet</label>
-        <description>A helmet of the Death Korps of Krieg. It fits perfectly with their gas masks, providing a seal against enemy chemical and biological agents. \n\nThe Kriegsmen are always on the offensive - either grinding the enemy down in prolonged trench warfare, or storming enemy defenses with inhuman discipline.</description>
+        <label>Krieg guard helmet</label>
+        <description>A standard Guard-issued Mark IX helmet and gasmask, constructed to ensure a good fit and to protect the wearer from biological and chemical toxins.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Apparel/Guard/DKoK_GuardHelmet</texPath>
@@ -48,8 +48,8 @@
 
     <ThingDef ParentName="GW_HOI_HelmetMaskBase">
         <defName>GW_HOI_DM_KriegGrenadierHelmet</defName>
-        <label>Death Korps Grenadier Helmet</label>
-        <description>A slightly improved helmet meant for Death Korps Grenadiers. They look only slightly different compared to regular helmets - enough that a Kriegsman can distinguish the two quickly while the enemy cannot. \n\nThe soldiers of Krieg are rather socially-stunted, but they have found kinship in some of the other Guardsmen - particularly the Valhallan Ice Warriors and the Mordian Iron Guard. All three are storied regiments, possessed of a grim determination to succeed whatever the cost.</description>
+        <label>Krieg grenadier helmet</label>
+        <description>A helmet and mask designed for the Grenadier Corps. While equipped with the standard array of chemical protections, it also features a skull motif on the mask, symbolizing the inevitability of death and serving as a reminder that a soldier must not falter when it arrives.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Apparel/Grenadier/DKoK_GrenadierHelmet</texPath>
@@ -93,8 +93,8 @@
 
     <ThingDef ParentName="GW_HOI_HelmetMaskBase">
         <defName>GW_HOI_DM_KriegEngineerHelmet</defName>
-        <label>Death Korps Engineer Helmet</label>
-        <description>WIP.</description>
+        <label>Krieg engineer helmet</label>
+        <description>An Engineer-issued reinforced helmet with gasmask. The type VI respirator is likewise a modification of the standar mask, utilising twin air-lines and a separate oxygen source allowing them to operate in any atmospheric conditions.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Apparel/Engineer/DKoK_EngineerHelmet</texPath>
@@ -136,8 +136,8 @@
 
     <ThingDef ParentName="GW_HOI_HelmetMaskBase">
         <defName>GW_HOI_DM_KriegOfficerHelmet</defName>
-        <label>Death Korps Officer Helmet</label>
-        <description>WIP.</description>
+        <label>Krieg officer helmet</label>
+        <description>The helmet of a Death Korps officer. The aquila, made from polished bronze, sits proudly on the officer's head not as a symbol of prestige, but as a grim reminder that The God Emperor is always looking down upon them. </description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Apparel/Officer/DKoK_OfficerHelmet</texPath>
@@ -183,8 +183,8 @@
   
 	<ThingDef ParentName="GW_HOI_HelmetMaskBase">
 		<defName>GW_HOI_DM_KriegCommissarHelmet</defName>
-		<label>Death Korps Commissar Helmet</label>
-		<description>WIP.</description>
+		<label>Krieg commissar helmet</label>
+		<description>Gilded in faux-gold, this mask denotes the rank of a commissar for the Death Korps of Krieg while providing less protection. The mask protects the wearer from biological and chemical toxins.</description>
 		<graphicData>
 			<texPath>Apparel/Commissar/DKoK_CommissarHelmet</texPath>
 		</graphicData>
