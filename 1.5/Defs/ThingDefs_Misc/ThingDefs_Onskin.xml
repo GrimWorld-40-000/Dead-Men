@@ -78,7 +78,7 @@
     <ThingDef ParentName="GW_HOI_OnSkinBase">
         <defName>GW_HOI_DM_CommissarUniform</defName>
         <label>Krieg commissar greatcoat</label>
-	<description>A greatcoat and gorget marking a commissar's rank within the Death Korps of Krieg. Commissars are trained and supplied by the Departmento Munitorium and are thus the only offworlders permitted to act within the Death Korp's forces. </description>
+	<description>A greatcoat and gorget marking a commissar's rank within the Death Korps of Krieg. Commissars are trained and supplied by the Departmento Munitorium and are thus the only offworlders permitted to act within the Death Korp's forces.</description>
        <recipeMaker>
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
         </recipeMaker>
