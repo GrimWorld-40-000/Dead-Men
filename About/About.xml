@@ -5,16 +5,16 @@
   <packageId>Grimworld.DeadMen</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/Krieg_ModIcon</modIconPath>
   <supportedVersions>
-    <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
 
   <modDependencies>
-	<li>
-          <packageId>CVNGrimworld.Framework</packageId>
-          <displayName>CVN/GrimWorld 40,000 - Ocularis Terribus</displayName>
-          <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3483499637</steamWorkshopUrl> 
-          <downloadUrl>https://github.com/ShunTheWitch/Chaos-core</downloadUrl>
-      </li>
+	<!-- <li> -->
+          <!-- <packageId>CVNGrimworld.Framework</packageId> -->
+          <!-- <displayName>CVN/GrimWorld 40,000 - Ocularis Terribus</displayName> -->
+          <!-- <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3483499637</steamWorkshopUrl>  -->
+          <!-- <downloadUrl>https://github.com/ShunTheWitch/Chaos-core</downloadUrl> -->
+      <!-- </li> -->
     <li>
       <packageId>Grimworld.Core</packageId>
       <displayName>Grimworld 40,000 - Core Imperialis</displayName>
