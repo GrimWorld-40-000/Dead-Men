@@ -10,6 +10,7 @@
         <graphicData>
             <texPath>Apparel/Guard/DKoK_GuardHelmet</texPath>
         </graphicData>
+		<uiIconScale>0.85</uiIconScale>
         <costList>
             <Cloth>10</Cloth>
             <Steel>50</Steel>
@@ -54,6 +55,7 @@
         <graphicData>
             <texPath>Apparel/Grenadier/DKoK_GrenadierHelmet</texPath>
         </graphicData>
+		<uiIconScale>0.85</uiIconScale>
         <costList>
             <Cloth>10</Cloth>
             <Steel>50</Steel>
@@ -99,6 +101,7 @@
         <graphicData>
             <texPath>Apparel/Engineer/DKoK_EngineerHelmet</texPath>
         </graphicData>
+		<uiIconScale>0.85</uiIconScale>
         <costList>
             <Cloth>10</Cloth>
             <Steel>50</Steel>
@@ -139,6 +142,7 @@
         <label>Death Korps Officer Helmet</label>
         <description>WIP.</description>
         <techLevel>Industrial</techLevel>
+		<uiIconScale>0.85</uiIconScale>
         <graphicData>
             <texPath>Apparel/Officer/DKoK_OfficerHelmet</texPath>
         </graphicData>
@@ -188,6 +192,7 @@
 		<graphicData>
 			<texPath>Apparel/Commissar/DKoK_CommissarHelmet</texPath>
 		</graphicData>
+		<uiIconScale>1</uiIconScale>
 		<costList>
 			<Cloth>10</Cloth>
             <Steel>60</Steel>
