@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScenarioDef ParentName="ScenarioBase">
+		<defName>HOI_DM_TheLastLine</defName>
+		<label>The Last Line</label>
+		<description>Two soldiers of the Death Korps of Krieg stand alone on a world they were never meant to fight for. Their regiment is gone, their vox is silent, and the enemy closes in from every horizon. There will be no retreat, no relief, no burial — only the slow grind of war until nothing remains. For them, survival is not the objective. The only victory is to die having killed enough to make their deaths matter.</description>
+		<scenario>
+			<name>The Last Line</name>
+			<summary>Two Krieg Guardsmen, no hope, no escape — only the killing to be done before the end.</summary>
+			<description>Two soldiers of the Death Korps of Krieg stand alone on a world they were never meant to fight for. Their regiment is gone, their vox is silent, and the enemy closes in from every horizon. There will be no retreat, no relief, no burial — only the slow grind of war until nothing remains. For them, survival is not the objective. The only victory is to die having killed enough to make their deaths matter.</description>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>GW_HOI_DeathKorpsStranded</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>2</pawnChoiceCount>
+					<pawnCount>2</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>7</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>Nerves</trait>
+					<degree>2</degree>
+				</li>
+				<li Class="VEF.Factions.ScenPart_ForcedFactionGoodwill">
+					<alwaysHostile>True</alwaysHostile>
+					<startingGoodwillRange>-69~-48</startingGoodwillRange>
+					<naturalGoodwillRange>-60~-6</naturalGoodwillRange>
+					<def>VFEC_ForcedFactionGoodwill</def>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>RaidEnemy</incident>
+					<intervalDays>16.6666279</intervalDays>
+					<minDays>10</minDays>
+					<maxDays>10</maxDays>
+					<repeat>True</repeat>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GW_HOI_DM_KriegBelt</thingDef>
+					<stuff>Hyperweave</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GW_HOI_DM_KriegGuardHelmet</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GW_HOI_DM_KriegUniform</thingDef>
+					<stuff>Synthread</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GW_HOI_Gun_Kantrael</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GW_HOI_DM_MeleeWeapon_TrenchShovel</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>GW_HOI_DeathKorpsStranded</defName>
+		<label>Death Korps of Krieg</label>
+		<description>A colony of recently crashlanded Death Korps of Krieg.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>GW_HOI_DM_DeathKorps_Player</basicMemberKind>
+		<pawnSingular>death korps conscript</pawnSingular>
+		<pawnsPlural>death korps conscript</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<allowedCultures><li>Astropolitan</li></allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	
+	<PawnKindDef ParentName="GW_HOI_MeleeTier1">
+        <defName>GW_HOI_DM_DeathKorps_Player</defName>
+        <label>death korps conscript</label>
+		<defaultFactionType>GW_HOI_DeathKorpsStranded</defaultFactionType>
+		<fixedGender>Male</fixedGender>
+        <apparelTags Inherit="False">
+            <li>40kDeathKorps</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_DM_KriegGuardHelmet</li>
+            <li>GW_HOI_DM_KriegUniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+	
+</Defs>
