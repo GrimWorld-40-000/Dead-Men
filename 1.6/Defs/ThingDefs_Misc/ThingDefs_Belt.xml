@@ -77,7 +77,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
 		<defName>GW_HOI_DM_KriegEngineerPack</defName>
-		<label>Krieg Engineer Webbing</label>
+		<label>Krieg engineer webbing</label>
         <description>A combat engineer’s pack, containing construction tools. It allows the wearer to build and repair objects faster. \n\nEvery soldier of the Death Korps of Krieg knows how to dig a good trench, but for stronger defenses, the Death Korps Engineers are ready and willing. They can quickly set up fighting positions of surprising strength, helping the Kriegsmen limit their casualties while maximizing the attrition of enemy forces.</description>
 		<graphicData>
 			<texPath>Apparel/Engineer/DKoK_EngineerBackpack</texPath>
@@ -86,7 +86,7 @@
             <drawSize>1.0</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+			<researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
 		</recipeMaker>
         <stuffCategories>
             <li>Leathery</li>

@@ -21,7 +21,7 @@
         </statBases>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <recipeMaker>
-            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>

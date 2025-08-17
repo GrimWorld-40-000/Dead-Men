@@ -44,7 +44,7 @@
             </li>
         </verbs>
 		<recipeMaker>
-            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
 		</recipeMaker>
         <tools>
             <li>
@@ -121,7 +121,7 @@
             </li>
         </verbs>
 		<recipeMaker>
-            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
 		</recipeMaker>
         <tools>
             <li>
@@ -333,7 +333,7 @@
       </li>
         </verbs>
 		<recipeMaker>
-            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+            <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
 		</recipeMaker>
         <tools>
             <li>
