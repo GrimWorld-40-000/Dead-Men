@@ -98,6 +98,11 @@
 					<thingDef>GW_HOI_DM_MeleeWeapon_TrenchShovel</thingDef>
 					<stuff>Steel</stuff>
 				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Two soldiers of the Death Korps of Krieg stand alone on a world they were never meant to fight for. Their regiment is gone, their vox is silent, and the enemy closes in from every horizon. There will be no retreat, no relief, no burial — only the slow grind of war until nothing remains. For them, survival is not the objective. The only victory is to die having killed enough to make their deaths matter.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
 			</parts>
 		</scenario>
 	</ScenarioDef>
