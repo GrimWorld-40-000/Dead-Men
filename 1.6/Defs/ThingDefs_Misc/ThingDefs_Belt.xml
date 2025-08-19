@@ -40,6 +40,11 @@
             <MarketValue>500</MarketValue>
             <EquipDelay>1.5</EquipDelay>
             <VEF_RangedCooldownFactor>0.9</VEF_RangedCooldownFactor>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>0.1</Insulation_Cold>
+			<Insulation_Heat>0.1</Insulation_Heat>
         </statBases>
         <equippedStatOffsets>
             <CarryingCapacity>5</CarryingCapacity>
@@ -49,6 +54,7 @@
             <useWornGraphicMask>true</useWornGraphicMask>
             <bodyPartGroups>
                 <li>Waist</li>
+                <li>Shoulders</li>				
             </bodyPartGroups>
             <wornGraphicPath>Apparel/Guard/Belt/DKoK_GuardBelt</wornGraphicPath>
             <wornGraphicData/>
