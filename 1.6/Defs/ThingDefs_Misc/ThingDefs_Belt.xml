@@ -49,6 +49,7 @@
         <equippedStatOffsets>
             <CarryingCapacity>5</CarryingCapacity>
             <CarryBulk MayRequire="CETeam.CombatExtended">7</CarryBulk>
+            <PainShockThreshold>0.05</PainShockThreshold>
         </equippedStatOffsets>
         <apparel>
             <useWornGraphicMask>true</useWornGraphicMask>
