@@ -140,7 +140,7 @@
     <ThingDef ParentName="GW_HOI_HelmetMaskBase">
         <defName>GW_HOI_DM_KriegOfficerHelmet</defName>
         <label>Death Korps officer helmet</label>
-        <description>The helmet of a Death Korps officer. The aquila, made from polished bronze, sits proudly on the officer's head not as a symbol of prestige, but as a grim reminder that The God Emperor is always looking down upon them. </description>
+        <description>The helmet of a Death Korps officer. The aquila, made from polished bronze, sits proudly on the officer's head not as a symbol of prestige, but as a grim reminder that The God Emperor is always looking down upon them.</description>
         <techLevel>Industrial</techLevel>
 		<uiIconScale>0.85</uiIconScale>
         <graphicData>
