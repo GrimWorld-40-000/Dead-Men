@@ -2,8 +2,8 @@
 <Defs>
     <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_DM_Gun_Lucius</defName>
-        <label>Lucius Lasgun</label>
-        <description>The standard-issue lasgun of the Death Korps of Krieg. WIP.</description>
+        <label>Lasgun Lucius no.98 pattern</label>
+        <description>Drawing power from standard packs, this lasgun operates at a higher output for a slightly harder punch. The downside is that it drains its power packs more quickly. Its attached bayonet provides additional versatility in close-quarters combat.</description>
         <graphicData>
             <drawSize>1.2</drawSize>
             <texPath>Weapons/DKoK_Lucius_Lasgun</texPath>
@@ -79,8 +79,8 @@
 
     <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_DM_Gun_LuciusXIV</defName>
-        <label>Lucius XIV Lasgun</label>
-        <description>The Lucius Lasgun modified for higher fire rate. WIP.</description>
+        <label>Lascarbine Lucius MK IIIa pattern</label>
+        <description>Drawing power from standard packs, this lascarbine derives from the same design as the standard Lucius lasgun, replacing several components to adapt the weapon for rapid fire. The result is a weaker but faster-firing weapon.</description>
         <graphicData>
             <drawSize>1.2</drawSize>
             <texPath>Weapons/DKoK_Lucius_Lasgun2</texPath>
@@ -148,8 +148,8 @@
 
     <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_DM_Gun_LuciusHellgun</defName>
-        <label>Lucius XIV Hellgun</label>
-        <description>Hellguns are a special type of high-powered lasgun, also known as a “hot-shot lasgun”. Instead of a standard power pack, hellguns feed from a backpack, allowing it to unleash a long burst of potent lasbolts. \n\nHellguns are generally seen only in the hands of elite Astra Militarum forces, such as the Tempestus Scions and the Cadian Kasrkin. Their superior penetration over normal lasguns gives hellguns a decent chance even against opponents wearing Power Armor.</description>
+        <label>Lucius Hellgun type XIV</label>
+        <description>The standard Hellgun issued to the Grenadiers of the Krieg, it is capable of automatic fire. The Type XIV features a barrel fitted with a bulky cooling shroud, containing coils of heat-exchanging pipes through which pressurized refrigerant chemicals are pumped. It also includes advanced optics for improved targeting.</description>
         <graphicData>
             <texPath>Weapons/DKoK_Lucius_Hellgun</texPath>
         </graphicData>
@@ -226,8 +226,8 @@
 
    <ThingDef ParentName="GW_HOI_GrenadeLauncherBase">
     <defName>GW_HOI_DM_GrenadeLauncher</defName>
-    <label>Krieg Pattern Launcher (Frag)</label>
-    <description>WIP</description>
+    <label>Grenade launcher MK VI (Frag)</label>
+    <description>A simple tubular weapon that launches various types of grenades using compressed gas to fire ordnance along an arcing trajectory. This allows shots to clear obstacles and deliver suppressive fire against unseen foes.</description>
     <graphicData>
         <texPath>Weapons/DKoK_GrenadeLauncher</texPath>
         <drawSize>1.2</drawSize>
@@ -291,8 +291,8 @@
 
 <ThingDef ParentName="GW_HOI_AutogunBase">
         <defName>GW_HOI_DM_Gun_LuciusShotgun</defName>
-        <label>Lucius Mk 22 Shotgun</label>
-        <description>The Lucius Pattern Mark 22c Semi-Automatic Shotgun. WIP.</description>
+        <label>Shotgun Lucius MK 22c pattern</label>
+        <description>Distinguished by its eight-chambered revolver action, the Lucius Pattern Mark 22 is favored by the Death Korps of Krieg for its ability to use a variety of high-gauge rounds.</description>
         <graphicData>
             <drawSize>1.2</drawSize>
             <texPath>Weapons/DKoK_Lucius_Shotgun</texPath>

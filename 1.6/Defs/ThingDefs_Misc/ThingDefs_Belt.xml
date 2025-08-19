@@ -4,7 +4,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>GW_HOI_DM_KriegBelt</defName>
-        <label>Death Korps Webbing</label>
+        <label>Death Korps webbing</label>
         <description>The webbing of a Death Korps of Krieg Guardsman. It provides space to carry more equipment, such as lasgun power packs and grenades. \n\nA true Kriegsman bears his load without complaint. A grim and deadpan joke, perhaps, but never complaint. He is a soldier through and through, at home in a muddy trench.</description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>

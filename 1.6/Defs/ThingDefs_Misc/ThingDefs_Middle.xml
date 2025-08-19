@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="GW_HOI_MiddleBase">
         <defName>GW_HOI_DM_KriegEngineerMiddle</defName>
-        <label>Death Korps Engineer Armor</label>
-        <description>WIP.</description>
+        <label>Death Korps engineer armor</label>
+        <description>A heavy carapace vest designed to withstand greater frontal punishment, standard issue for the Death Korps of Krieg’s Engineers. Often operating within tunnel networks, their armor reflects this role, providing additional protection to help ensure the completion of their tasks.</description>
         <graphicData>
             <texPath>Apparel/Engineer/DKoK_EngineerMiddle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -51,7 +51,7 @@
 
     <ThingDef ParentName="GW_HOI_ArmorBase">
         <defName>GW_HOI_DM_KriegGrenadierArmor</defName>
-        <label>Death Korps Grenadier Armor</label>
+        <label>Death Korps grenadier armor</label>
         <description>A vest of black Flak Armor. This particular model is worn by the elite Death Korps Grenadiers, but performance is roughly the same as standard Flak Armor. \n\nThe Grenadiers are generally formed from the survivors of units that suffer massive battle casualties, such that it would be better to form a new unit instead of reconstituting the old. While it is an honor (and an obligation, if asked) to become one, the Grenadiers are sometimes said to be soldiers who have “lived too long” - they must now either earn a promotion to a commanding rank or die as martyrs in battle.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
@@ -99,8 +99,8 @@
 
      <ThingDef ParentName="GW_HOI_ArmorBase">
         <defName>GW_HOI_DM_KriegOfficerArmor</defName>
-        <label>Death Korps Officer Armor</label>
-        <description>WIP.</description>
+        <label>Death Korps officer cuirass</label>
+        <description>A reinforced cuiras bearing the simple marks of Krieg command. The Death Korps of Krieg offer no medals, as acts of bravery and sacrifice are to be expected of every soldier. Such ostentation would also be a waste of metal which could be put to better use in killing The God-Emperor's foes.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
