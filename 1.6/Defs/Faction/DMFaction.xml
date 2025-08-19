@@ -15,7 +15,7 @@
     <FactionDef ParentName="GW_ImperialFactionBase">
         <defName>GW_HOI_DM_DeathKorps</defName>
         <label>Death Korps</label>
-        <description>WIP.</description>
+        <description>Death Korps of Krieg are grim, disciplined Imperial Guardsmen, known for their unyielding obedience, trench warfare expertise, and willingness to endure staggering casualties. On the battlefield, they favor siege tactics, heavy artillery, and relentless infantry assaults, prioritizing mission success above all else.</description>
         <configurationListOrderPriority>998</configurationListOrderPriority>
         <leaderTitle>lord general</leaderTitle>
         <techLevel>Spacer</techLevel>
