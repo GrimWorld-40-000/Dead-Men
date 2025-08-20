@@ -113,8 +113,8 @@
 		<description>A colony of recently crashlanded Death Korps of Krieg.</description>
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>GW_HOI_DM_DeathKorps_Player</basicMemberKind>
-		<pawnSingular>death korps conscript</pawnSingular>
-		<pawnsPlural>death korps conscript</pawnsPlural>
+		<pawnSingular>Kriegsman</pawnSingular>
+		<pawnsPlural>Kriegsmans</pawnsPlural>
 		<techLevel>Industrial</techLevel>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
