@@ -167,7 +167,7 @@
             <MoveSpeed>-0.10</MoveSpeed>
         </equippedStatOffsets>
         <recipeMaker>
-		<researchPrerequisite>GW_AM_TempestusScions</researchPrerequisite>
+		<researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
