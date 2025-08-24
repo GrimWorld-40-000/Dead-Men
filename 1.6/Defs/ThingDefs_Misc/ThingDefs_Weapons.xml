@@ -319,17 +319,17 @@
             <li>ShortShots</li>
         </weaponTags>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GW_HOI_ShotgunPellet</defaultProjectile>
                 <warmupTime>0.75</warmupTime>
                 <range>17</range>
-                <burstShotCount>1</burstShotCount>
+                <burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>Shot_Shotgun</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <pellets>5</pellets>
       </li>
         </verbs>
 		<recipeMaker>
