@@ -107,6 +107,13 @@
             <EquipDelay>2</EquipDelay>
             <MarketValue>220</MarketValue>
 		</statBases>
+		<thingCategories>
+            <li>ApparelUtility</li>
+        </thingCategories>
+        <tradeTags>
+            <li>HPUtility</li>
+            <li>GW_AM_Utility</li>
+        </tradeTags>
 		 <equippedStatOffsets>
             <CarryingCapacity>20</CarryingCapacity>
             <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
