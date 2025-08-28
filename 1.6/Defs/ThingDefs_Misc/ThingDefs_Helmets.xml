@@ -9,6 +9,7 @@
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Apparel/Guard/DKoK_GuardHelmet</texPath>
+			<drawSize>(1,1)</drawSize>
         </graphicData>
 		<uiIconScale>0.85</uiIconScale>
         <costList>
