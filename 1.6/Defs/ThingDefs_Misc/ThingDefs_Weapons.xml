@@ -9,7 +9,7 @@
             <texPath>Weapons/DKoK_Lucius_Lasgun</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>8000</WorkToMake>
+            <WorkToMake>17000</WorkToMake>
             <Mass>3.7</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -37,7 +37,7 @@
                 <warmupTime>1.05</warmupTime>
                 <range>30.0</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-                <burstShotCount>2</burstShotCount>
+                <burstShotCount>1</burstShotCount>
                 <soundCast>GW_AM_Gun_Kantrael</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
@@ -86,10 +86,10 @@
             <texPath>Weapons/DKoK_Lucius_Lasgun2</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>9000</WorkToMake>
+            <WorkToMake>25000</WorkToMake>
             <Mass>4</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyShort>0.65</AccuracyShort>
             <AccuracyMedium>0.55</AccuracyMedium>
             <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
@@ -154,7 +154,7 @@
             <texPath>Weapons/DKoK_Lucius_Hellgun</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>26000</WorkToMake>
             <Mass>5.2</Mass>
             <AccuracyTouch>0.35</AccuracyTouch>
             <AccuracyShort>0.51</AccuracyShort>
