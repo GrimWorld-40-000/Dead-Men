@@ -23,16 +23,16 @@
             <MaxHitPoints>160</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
             <Mass>1.3</Mass>
-            <ArmorRating_Sharp>0.58</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.26</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.32</ArmorRating_Heat>
+            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
             <Insulation_Cold>0.4</Insulation_Cold>
 			<Insulation_Heat>0.5</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
             <MarketValue>400</MarketValue>
         </statBases>
         <equippedStatOffsets Inherit="False">
-			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
@@ -68,7 +68,7 @@
             <MaxHitPoints>168</MaxHitPoints>
             <WorkToMake>15000</WorkToMake>
             <Mass>1.6</Mass>
-            <ArmorRating_Sharp>0.78</ArmorRating_Sharp>
+            <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.34</ArmorRating_Blunt>
             <ArmorRating_Heat>0.42</ArmorRating_Heat>
             <Insulation_Cold>0.5</Insulation_Cold>
@@ -167,7 +167,7 @@
             <MarketValue>750</MarketValue>
         </statBases>
         <equippedStatOffsets>
-			<SocialImpact>0.10</SocialImpact>
+			<SocialImpact>0.20</SocialImpact>
             <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
             <MentalBreakThreshold>0.05</MentalBreakThreshold>
             <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -217,10 +217,10 @@
 			<researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
-			<SocialImpact>0.05</SocialImpact>
+			<SocialImpact>0.10</SocialImpact>
             <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
-            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.10</SlaveSuppressionOffset>
-            <MentalBreakThreshold>0.05</MentalBreakThreshold>
+            <SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.40</SlaveSuppressionOffset>
+            <MentalBreakThreshold>0.10</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Apparel/Commissar/Headgear/DKoK_CommissarHelmet</wornGraphicPath>
